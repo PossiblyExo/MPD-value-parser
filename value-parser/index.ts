@@ -65,6 +65,7 @@ export function ConvertGivenDuration(inputString:string):number
 
     if(partP.indexOf("M") !== -1 && months !== 0){
         throw new Error("Month value is not supported")
+        // TODO: finish if for months
     }
 
     let componentsT = ExtractDurations(partT);
